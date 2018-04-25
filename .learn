@@ -7,3 +7,5 @@ languages:
   - ruby
 resources:
   - 0
+
+parent_template: git@github.com:learn-co-curriculum/web-auth-readme.git

@@ -196,4 +196,4 @@ Now load `/friends` and, just like that, they'll be there for you!
 
 ![friends couch](http://i.giphy.com/woCi8k482YTEQ.gif)
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/web-auth-readme' title='Using OAuth with APIs'>Using OAuth with APIs</a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>PHRG Using OAuth with APIs</p>
