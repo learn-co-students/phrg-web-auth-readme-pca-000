@@ -7,7 +7,7 @@ class SearchesController < ApplicationController
     client_id = ENV['FOURSQUARE_CLIENT_ID']
     client_secret = ENV['FOURSQUARE_SECRET']
 
-    @resp = Faraday.get 'https://api.foursquare.com/v2/venues/search' do |req|
+    @res = Faraday.get 'https://api.foursquare.com/v2/venues/search' do |req|
       req.params['client_id'] = client_id
       req.params['client_secret'] = client_secret
       req.params['v'] = '20160201'
@@ -15,9 +15,9 @@ class SearchesController < ApplicationController
       req.params['query'] = 'coffee shop'
     end
 
-    body = JSON.parse(@resp.body)
+    body = JSON.parse(@res.body)
 
-    if @resp.success?
+    if @res.success?
       @venues = body["response"]["venues"]
     else
       @error = body["meta"]["errorDetail"]
