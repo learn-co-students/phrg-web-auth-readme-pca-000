@@ -1280,3 +1280,36 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 00:51:22 -0500
+
+
+Started GET "/" for ::1 at 2019-07-02 11:01:05 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 253ms (Views: 248.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-07-02 11:01:11 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PlMUg4pE/pXvvCXZfnXwhvWzQT+flD8a9F7I8qjgLpidJQTQ26Ml1eC2YE9hsYmpK5FScRkYEjjkGlvGnaPh2w==", "zipcode"=>"19147", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 160ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-07-02 11:03:44 -0400
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 151ms (Views: 146.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-07-02 11:03:50 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lI4PoZyLyWJuC13ii6RidpA2KaevZFoySz/VOGp0/ZE3+B/yzWwSImEBGHSUYBtZThQ66SnodxBbe0YMXzcy0g==", "zipcode"=>"19147", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 156ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-07-02 11:04:00 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RBWaZHApvuhr0o67VEJL0iPHzb9YPR/kloSx4ONBRx3nY4o3Ic5lqGTYyy1LhjL9/eXe8d6xMsaGwCLU1gKIXg==", "zipcode"=>"20874", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 350ms (Views: 10.9ms | ActiveRecord: 0.0ms)
